@@ -13,9 +13,9 @@ class Tp2Controller extends AbstractController
       */
 
     public function notifications(): Response
-    {   $userFirstName = TRUE;
+    {   $prueba = TRUE;
         return $this->render('tp2.html.twig',[
-            'salio' => $userFirstName,
+            'salio' => $prueba,
             
         ]);
     }
